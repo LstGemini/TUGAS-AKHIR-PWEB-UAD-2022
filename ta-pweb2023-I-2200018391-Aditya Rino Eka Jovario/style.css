@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body {
+	background: #eee;
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+  margin: 0px;
+}
+
+.header img{
+  width: 200px;
+  float: left;
+  padding: 20px 40px 20px 30px;
+  //padding: 20px;
+
+  //padding-top: 20px;
+  //padding-bottom: 20px;
+  //padding-right: 40px;
+  //padding-left: 30px;
+}
+
+.header li{
+  float: left;
+  list-style: none;
+  padding: 0px 0px 20px 0px;
+
+  //padding-top: 33px;
+  //padding-bottom: 33px;
+  //padding-right: 20px;
+  //padding-left: 20px;
+}
+
+.header{
+  height: 93px;
+  background-color:#292826;
+  color: #fff;
+}
+.blog {
+	float:none;
+}
+
+.conteudo {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+
+.conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.conteudo p:last-child {
+	margin: 0;
+}
+
+.conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+.conteudo .continue-lendo:hover {
+	margin-left:10px;
+}
+
+.post-info {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+
+
+
+.footer img {
+  width: 200px;
+  float: left;
+  padding-top: 20px;
+  //padding-left: 30px;
+}
+
+.footer li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer a{
+  color: white;
+  font-family: 'Open Sans', sans-serif; 
+  text-align: center;
+  position: fixed-bottom;
+}
+
+.footer ul {
+  float: right;
+  color: white;
+  //padding-right: 15px;
+}
+
+.footer {
+  background-color: #292826;
+  //color: #26d0c9;
+  height: 80px;
+  padding: 40px;
+}
+contact-form:{
+  padding-top: 100px;
+}
+input{
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+textarea{
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit{
+  background-color: #dee7ec;
+  color: #889eab;
+  width: 150px;
+}
+}
+
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+
+nav.menu ul a {
+  padding: 45px 20px 26px 20px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	
+	background:#70706f;
+}
+.button{
+       display: block;                  /*Berfungsi untuk membuat list tersebut berbentuk vertikal*/
+       width: 120px;                    /*Memberikan ukuran sebesar 100px dari browser*/
+       margin: 0px;                    /*Memberikan jarak pada elemen luar*/
+       padding: 10px;                   /*Memberikan jarak pada elemen dan konten*/
+       border-radius: 0%;              /*membuat tombol menjadi bulat dengan ukuran yang sesuai*/
+       text-align: center;              /*Text akan berada di tengah pada tombol*/
+       font-weight:600;
+	     font-size: 16px;
+	     color:#fff;
+	     text-transform: uppercase;
+	     transition: all 0.5s ease;
+	text-decoration: none;
+      }
+
+      .tombol1{}
+
+      .tombol1:hover{
+       background-color: #70706f;
+      }
+      .tombol2{
+      }
+
+      .tombol2:hover{
+       background-color:#70706f;
+      }
